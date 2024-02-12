@@ -1,0 +1,139 @@
+#abc{
+  display: flex;
+  margin: 20px;
+}
+#g{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  text-align: center;
+}
+#nav{
+  display:flex;
+  justify-content: space-around;
+ background-color: antiquewhite;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+ box-shadow: 2px 3px 3px lightgrey; 
+ z-index: 1000;
+}
+#ul{
+  display: flex; 
+  justify-content: space-between;
+  list-style: none; 
+}
+#ul1{
+  border-radius: 20px 0 0 20px;
+  border: 1px solid black;
+   padding: 5px;
+   color: black;
+}
+#ul2{
+  height: 34px;
+   width: 150px;
+    border-radius: 0 20px 20px 0;
+}
+#a{
+  width: 400px; 
+  height: 40px;
+}
+#addon-wrapping{
+  border-radius: 20px 0 0 20px;
+}
+#a1{
+  border-radius: 0 20px 20px 0;
+}
+#a2{
+  width: "100px";
+   height: "40px";
+   border-radius: "20px";
+   /* padding-bottom: 10px; */
+   /* text-align: center; */
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+#abc3{
+  margin: 10px;
+   margin-top: 30px;
+}
+#foot{
+  display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   background-color: lightsteelblue;
+   padding: 20px;
+   padding-left: 50px; 
+}
+#pages{
+  display:flex;justify-content:end;
+}
+@media(max-width: 768px){
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+#abc{
+  display: inline;
+}
+#g{
+  display: grid;
+  grid-template-columns: auto;
+  position: absolute;
+  top: 31%;
+  width: 100%;
+}
+#nav{
+  position: fixed;
+  left:0;
+  right:0;
+  display: inline;
+  background-color: antiquewhite;
+}
+
+#nn{
+  text-align: center;
+}
+#addon-wrapping{
+  border-radius: 10px 0 0 10px;
+  width: 40px;
+  padding: 10px;
+}
+#a1{
+  border-radius: 0 10px 10px 0;
+  width: 135px;
+  padding: 10px;
+}
+#a2{
+  width: "50px";
+   height: "20px";
+   border-radius: "10px";
+   padding: 10px;
+}
+#qul #ul{
+   
+ padding: 1rem
+}
+#abc1{
+  display: none;
+}
+#abc2{
+  display: none;
+}
+#abc3{
+  position: absolute;
+  top: 20%;
+  
+}
+#foot{
+  display: none;
+}
+#pages{
+  position: absolute;
+  top: 435%;
+}
+}
